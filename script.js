@@ -49,6 +49,7 @@ function handleSubmission(event) {
 // Function to render tasks in the table
 function render() {
     // TODO: Use array methods to create a new table row of data for each item in the array
+    //Added a Remove and Complete button to the table
     taskTable.innerHTML = tasks.map(task => `
     <tr>
         <td>${task.name}</td>
